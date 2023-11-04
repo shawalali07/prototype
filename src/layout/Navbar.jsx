@@ -1,12 +1,23 @@
 import avatar from "../assets/avatar.png";
 import logo from "../assets/logo.svg";
-import { Bag, BarChart, ChevronDown, Cursor, Plus } from "../assets/Icons";
+import {
+  Bag,
+  BarChart,
+  ChevronDown,
+  Cursor,
+  Menu,
+  Plus,
+} from "../assets/Icons";
 import { Button } from "../components/shared/Button";
+import menu from "../assets/menu.svg";
 
 export function Navbar() {
   return (
     <div className='bg-primary text-white'>
-      <div className='flex justify-between py-6 px-7'>
+      <div className='p-3 md:hidden sm:flex'>
+        <Menu />
+      </div>
+      <div className='justify-between py-6 px-7 hidden md:flex'>
         <div className='flex gap-8 items-center'>
           <a href='/'>
             <img src={logo} alt='logo' className='h-6' />

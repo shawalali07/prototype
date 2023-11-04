@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg";
 
 export function Footer() {
   return (
-    <div className='bg-primary text-white py-6 px-7'>
+    <div className='bg-primary text-white py-6 px-7 hidden md:block'>
       <div className='py-8 px-7 border border-secondary-border rounded-xl border-solid p-2'>
         <div className='flex justify-between'>
           <div className=''>

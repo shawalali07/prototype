@@ -10,9 +10,9 @@
   @apply bg-transparent w-2;
 }
 
-/* *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   @apply bg-secondary-dark rounded-full;
-} */
+}
 
 .scrollbar-hidden::-webkit-scrollbar-thumb {
   @apply bg-transparent;

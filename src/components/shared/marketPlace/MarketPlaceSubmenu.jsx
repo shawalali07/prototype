@@ -10,7 +10,7 @@ import { Button } from "../Button";
 
 export function MarketPlaceSubmenu() {
   return (
-    <div className='py-6 flex justify-between text-sm'>
+    <div className='py-6 md:flex justify-between text-sm hidden'>
       <div className='w-[900px] flex bg-zinc-800 rounded-xl items-center p-3 gap-1'>
         <Search />
         <input type='search' placeholder='Search' className='bg-zinc-800' />

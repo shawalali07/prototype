@@ -2,7 +2,7 @@ import { ChevronDown, DotsGrid, Grid } from "../../../assets/Icons";
 
 export function MarketPlaceFilters() {
   return (
-    <div className='flex justify-between'>
+    <div className='md:flex hidden justify-between'>
       <div className='flex gap-3'>
         <Filter title='Category' />
         <Filter title='Type' />
